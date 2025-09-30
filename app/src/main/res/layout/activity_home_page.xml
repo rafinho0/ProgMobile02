@@ -29,9 +29,24 @@
         />
 
 
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Você pode brincar com esse contador\nSe divirta"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@color/tv_color"
+        android:textStyle="bold"
+        />
+
     <!-- Aqui iremos adicionaremos um contado -->
     <TextView
-        android:layout_marginTop="60dp"
+        android:id="@+id/counter"
+
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp"
 
         android:layout_width="match_parent"
@@ -46,7 +61,7 @@
 
     <!-- Aqui adicionamos botões -->
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="360sp"
         android:layout_height="50dp"
 
         android:gravity="center"
@@ -55,8 +70,10 @@
         >
 
         <Button
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
+            android:id="@+id/subtract"
+
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
 
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -69,8 +86,10 @@
             />
 
         <Button
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
+            android:id="@+id/reset"
+
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
 
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -83,8 +102,10 @@
             />
 
         <Button
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"
+            android:id="@+id/add"
+
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
 
             android:layout_width="0dp"
             android:layout_height="match_parent"
