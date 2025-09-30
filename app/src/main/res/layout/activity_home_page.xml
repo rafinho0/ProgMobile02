@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/home"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+
+    android:padding="30dp"
+
+    android:background="@color/bg_color"
+
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/home_title"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/bg_btn"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textColor="@color/tv_color"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvSignOut"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/sign_out"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/tv_color"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProgMobile02</string>
+
+    <string name="hint_login">Login</string>
+    <string name="hint_password">Senha</string>
+
+    <string name="str_title">Bem-vindo!</string>
+    <string name="str_login">Entrar</string>
+    <string name="str_forgot_pw">Esqueci minha Senha</string>
+    <string name="str_sign">Cadastre-se</string>
+    <string name="msg_required_field">O campo não pode ser vazio</string>
+    <string name="msg_link">Link está funcionando e redirecionamento feito!</string>
+
+    <string name="home_title">Bem-vindo a Página Principal!</string>
+    <string name="sign_out">Sair</string>
+    <string name="info">Não tem nada de demais aqui até o momento.</string>
+</resources>
