@@ -28,23 +28,81 @@
         android:textStyle="bold"
         />
 
+
+    <!-- Aqui iremos adicionaremos um contado -->
     <TextView
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="30dp"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="@string/info"
+        android:text="@string/default_text"
         android:textAlignment="center"
-        android:textSize="19sp"
+        android:textSize="50sp"
         android:textColor="@color/tv_color"
         android:textStyle="bold"
         />
 
+    <!-- Aqui adicionamos botões -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:textColor="@color/text_btn_color"
+
+            android:backgroundTint="@color/bg_btn"
+            android:text="Diminuir"
+            />
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:textColor="@color/text_btn_color"
+
+            android:backgroundTint="@color/bg_btn"
+            android:text="Resetar"
+            />
+
+        <Button
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:textColor="@color/text_btn_color"
+
+            android:backgroundTint="@color/bg_btn"
+            android:text="Adicionar"
+            />
+
+    </LinearLayout>
+
+
+    <!-- Texto de sair -->
     <TextView
         android:id="@+id/tvSignOut"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -13,5 +13,5 @@
 
     <string name="home_title">Bem-vindo a Página Principal!</string>
     <string name="sign_out">Sair</string>
-    <string name="info">Não tem nada de demais aqui até o momento.</string>
+    <string name="default_text">0</string>
 </resources>
